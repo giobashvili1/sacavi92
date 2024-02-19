@@ -14,14 +14,15 @@ body{
     gap: 40px;
     
 }
-.navbar h5{
+.navbar a{
     font-family: "heebo";
     font-size: 20px;
     font-weight: 600;
     line-height: 29px;
     letter-spacing: 0px;
     color: #21243D;
-
+    text-decoration: none;
+    margin-top: 25px;
 }
 /*     SECTION2     */
 .section2{
@@ -173,6 +174,7 @@ body{
 }
 .works{
     display: flex;
+
 }
 .dashboard{
     padding-top: 81px;
@@ -215,6 +217,7 @@ body{
 }
 .works2{
     display: flex;
+
 }
 .works3 h4{
     font-family: "heebo";
@@ -544,6 +547,9 @@ body{
 .works3{
     display: none;
 }
+.hr{
+    display: none;
+}
 .hr2{
     display: none;
 }
@@ -552,5 +558,7 @@ body{
 }
 .section5{
     padding-bottom: 130px;
+    border-top: 1px solid  #E0E0E0;
+    ;
 }
 }
